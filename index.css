@@ -1,0 +1,55 @@
+.main {
+    width: 1920px;
+    height: 1280px;
+}
+
+body {
+    background-image: url("ducks.jpg");
+    background-size: cover;
+    font-family: "Shrikhand", serif;
+    font-weight: bold;
+    text-align: center;
+    color: #fbaf00;
+    text-shadow: 0 0 1px black;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #ffe14e;
+    text-shadow: 0 0 1px black;
+    font-weight: lighter;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    text-shadow: 0 0 1px #a47e1b;
+}
+
+#increment-btn {
+    background: #003566;
+}
+
+#save-btn {
+    background: #3a0057;
+}
+
